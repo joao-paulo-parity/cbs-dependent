@@ -3,6 +3,6 @@ default:
   tags:
     - testlab-docker
 
-hello:
+check:
   script:
     - echo "hi"
