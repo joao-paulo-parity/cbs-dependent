@@ -3,6 +3,7 @@ default:
   tags:
     - testlab-docker
 
-hello:
+check:
+  image: "paritytech/ci-linux:production"
   script:
-    - echo "hi"
+    - cargo check
