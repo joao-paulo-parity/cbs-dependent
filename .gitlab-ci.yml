@@ -1,0 +1,8 @@
+default:
+  image: bash
+  tags:
+    - testlab-docker
+
+hello:
+  script:
+    - echo "hi"
